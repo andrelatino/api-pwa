@@ -1,6 +1,6 @@
 {
-  "short_name": "PWA Demo",
-  "name": "PWA Description here",
+  "short_name": "Short Name",
+  "name": "PWA Name",
   "icons": [
     {
       "src": "app.png",
@@ -14,6 +14,9 @@
   "scope": "/",
   "theme_color": "#3367D6",
   "shortcuts": [],
-  "description": "",
-  "screenshots": []
+  "description": "Best app for making the web faster",
+  "screenshots": [],
+  "dir": "auto",
+  "lang": "fr",
+  "orientation": "any"
 }

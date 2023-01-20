@@ -5,6 +5,11 @@
     <link rel="manifest" href="./manifest.json">
   </head> 
   <body>
+    <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+      }
+    </script>
     <h1> PWA test1 </h1>
   <body>  
 </html>
